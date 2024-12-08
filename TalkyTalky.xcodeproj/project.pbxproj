@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A456DE08AD7110731C7951A0 /* Pods_TalkyTalky.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE9423E50E3B2801558BEB4F /* Pods_TalkyTalky.framework */; };
+		B56F487992085C7FCC48F7D4 /* Pods_TalkyTalky_TalkyTalkyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD1B00F0B5D821F4845FAF2 /* Pods_TalkyTalky_TalkyTalkyUITests.framework */; };
+		C57041B176FE6F5B062065D5 /* Pods_TalkyTalkyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A2B81EA06081D3E9D78D886 /* Pods_TalkyTalkyTests.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		B645B35A2D052D2D000D0768 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,9 +30,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1677D1448D0E804B34860219 /* Pods-TalkyTalky.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalkyTalky.release.xcconfig"; path = "Target Support Files/Pods-TalkyTalky/Pods-TalkyTalky.release.xcconfig"; sourceTree = "<group>"; };
+		2218774429455642A07E8D0F /* Pods-TalkyTalky-TalkyTalkyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalkyTalky-TalkyTalkyUITests.release.xcconfig"; path = "Target Support Files/Pods-TalkyTalky-TalkyTalkyUITests/Pods-TalkyTalky-TalkyTalkyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4CF9CAFB3195E6F371C977EB /* Pods-TalkyTalky.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalkyTalky.debug.xcconfig"; path = "Target Support Files/Pods-TalkyTalky/Pods-TalkyTalky.debug.xcconfig"; sourceTree = "<group>"; };
+		7C9B99987F68A3A3B74B1E6C /* Pods-TalkyTalky-TalkyTalkyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalkyTalky-TalkyTalkyUITests.debug.xcconfig"; path = "Target Support Files/Pods-TalkyTalky-TalkyTalkyUITests/Pods-TalkyTalky-TalkyTalkyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9A2B81EA06081D3E9D78D886 /* Pods_TalkyTalkyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TalkyTalkyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A36870CB7CB3E4C08C1AE1A3 /* Pods-TalkyTalkyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalkyTalkyTests.release.xcconfig"; path = "Target Support Files/Pods-TalkyTalkyTests/Pods-TalkyTalkyTests.release.xcconfig"; sourceTree = "<group>"; };
 		B645B3432D052D2A000D0768 /* TalkyTalky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TalkyTalky.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B645B3592D052D2D000D0768 /* TalkyTalkyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TalkyTalkyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B645B3632D052D2D000D0768 /* TalkyTalkyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TalkyTalkyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB2A6FE41B11ECF49B34B357 /* Pods-TalkyTalkyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalkyTalkyTests.debug.xcconfig"; path = "Target Support Files/Pods-TalkyTalkyTests/Pods-TalkyTalkyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CFD1B00F0B5D821F4845FAF2 /* Pods_TalkyTalky_TalkyTalkyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TalkyTalky_TalkyTalkyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE9423E50E3B2801558BEB4F /* Pods_TalkyTalky.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TalkyTalky.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -50,11 +65,15 @@
 		};
 		B645B35C2D052D2D000D0768 /* TalkyTalkyTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = TalkyTalkyTests;
 			sourceTree = "<group>";
 		};
 		B645B3662D052D2D000D0768 /* TalkyTalkyUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = TalkyTalkyUITests;
 			sourceTree = "<group>";
 		};
@@ -65,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A456DE08AD7110731C7951A0 /* Pods_TalkyTalky.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C57041B176FE6F5B062065D5 /* Pods_TalkyTalkyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,12 +100,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B56F487992085C7FCC48F7D4 /* Pods_TalkyTalky_TalkyTalkyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4139318B412F8F974424C1E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE9423E50E3B2801558BEB4F /* Pods_TalkyTalky.framework */,
+				CFD1B00F0B5D821F4845FAF2 /* Pods_TalkyTalky_TalkyTalkyUITests.framework */,
+				9A2B81EA06081D3E9D78D886 /* Pods_TalkyTalkyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B645B33A2D052D2A000D0768 = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +124,8 @@
 				B645B35C2D052D2D000D0768 /* TalkyTalkyTests */,
 				B645B3662D052D2D000D0768 /* TalkyTalkyUITests */,
 				B645B3442D052D2A000D0768 /* Products */,
+				DDB1E3D24F9CBBEC57EAB10D /* Pods */,
+				4139318B412F8F974424C1E1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +139,20 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		DDB1E3D24F9CBBEC57EAB10D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4CF9CAFB3195E6F371C977EB /* Pods-TalkyTalky.debug.xcconfig */,
+				1677D1448D0E804B34860219 /* Pods-TalkyTalky.release.xcconfig */,
+				7C9B99987F68A3A3B74B1E6C /* Pods-TalkyTalky-TalkyTalkyUITests.debug.xcconfig */,
+				2218774429455642A07E8D0F /* Pods-TalkyTalky-TalkyTalkyUITests.release.xcconfig */,
+				CB2A6FE41B11ECF49B34B357 /* Pods-TalkyTalkyTests.debug.xcconfig */,
+				A36870CB7CB3E4C08C1AE1A3 /* Pods-TalkyTalkyTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -112,6 +160,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B645B36C2D052D2D000D0768 /* Build configuration list for PBXNativeTarget "TalkyTalky" */;
 			buildPhases = (
+				D09DC1003E06B13A79749033 /* [CP] Check Pods Manifest.lock */,
 				B645B33F2D052D2A000D0768 /* Sources */,
 				B645B3402D052D2A000D0768 /* Frameworks */,
 				B645B3412D052D2A000D0768 /* Resources */,
@@ -124,8 +173,6 @@
 				B645B3452D052D2B000D0768 /* TalkyTalky */,
 			);
 			name = TalkyTalky;
-			packageProductDependencies = (
-			);
 			productName = TalkyTalky;
 			productReference = B645B3432D052D2A000D0768 /* TalkyTalky.app */;
 			productType = "com.apple.product-type.application";
@@ -134,6 +181,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B645B3712D052D2D000D0768 /* Build configuration list for PBXNativeTarget "TalkyTalkyTests" */;
 			buildPhases = (
+				D2FD8B1CC8384FAA1DF10513 /* [CP] Check Pods Manifest.lock */,
 				B645B3552D052D2D000D0768 /* Sources */,
 				B645B3562D052D2D000D0768 /* Frameworks */,
 				B645B3572D052D2D000D0768 /* Resources */,
@@ -147,8 +195,6 @@
 				B645B35C2D052D2D000D0768 /* TalkyTalkyTests */,
 			);
 			name = TalkyTalkyTests;
-			packageProductDependencies = (
-			);
 			productName = TalkyTalkyTests;
 			productReference = B645B3592D052D2D000D0768 /* TalkyTalkyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -157,6 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B645B3742D052D2D000D0768 /* Build configuration list for PBXNativeTarget "TalkyTalkyUITests" */;
 			buildPhases = (
+				B018AF2FBA4EB56CFE350173 /* [CP] Check Pods Manifest.lock */,
 				B645B35F2D052D2D000D0768 /* Sources */,
 				B645B3602D052D2D000D0768 /* Frameworks */,
 				B645B3612D052D2D000D0768 /* Resources */,
@@ -170,8 +217,6 @@
 				B645B3662D052D2D000D0768 /* TalkyTalkyUITests */,
 			);
 			name = TalkyTalkyUITests;
-			packageProductDependencies = (
-			);
 			productName = TalkyTalkyUITests;
 			productReference = B645B3632D052D2D000D0768 /* TalkyTalkyUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -244,6 +289,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B018AF2FBA4EB56CFE350173 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TalkyTalky-TalkyTalkyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D09DC1003E06B13A79749033 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TalkyTalky-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2FD8B1CC8384FAA1DF10513 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TalkyTalkyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B645B33F2D052D2A000D0768 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -284,6 +398,7 @@
 /* Begin XCBuildConfiguration section */
 		B645B36D2D052D2D000D0768 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CF9CAFB3195E6F371C977EB /* Pods-TalkyTalky.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -311,6 +426,7 @@
 		};
 		B645B36E2D052D2D000D0768 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1677D1448D0E804B34860219 /* Pods-TalkyTalky.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -457,6 +573,7 @@
 		};
 		B645B3722D052D2D000D0768 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB2A6FE41B11ECF49B34B357 /* Pods-TalkyTalkyTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -475,6 +592,7 @@
 		};
 		B645B3732D052D2D000D0768 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A36870CB7CB3E4C08C1AE1A3 /* Pods-TalkyTalkyTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -493,6 +611,7 @@
 		};
 		B645B3752D052D2D000D0768 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C9B99987F68A3A3B74B1E6C /* Pods-TalkyTalky-TalkyTalkyUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -509,6 +628,7 @@
 		};
 		B645B3762D052D2D000D0768 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2218774429455642A07E8D0F /* Pods-TalkyTalky-TalkyTalkyUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
