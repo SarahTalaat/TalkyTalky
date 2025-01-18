@@ -65,7 +65,7 @@
             </objects>
             <point key="canvasLocation" x="48.091603053435115" y="-34.507042253521128"/>
         </scene>
-        <!--Item-->
+        <!--Chats-->
         <scene sceneID="YFq-en-ATM">
             <objects>
                 <viewController id="VcE-Sf-8QQ" sceneMemberID="viewController">
@@ -142,7 +142,7 @@
                         <viewLayoutGuide key="safeArea" id="Va6-Li-c19"/>
                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="YWt-9m-h9r"/>
+                    <tabBarItem key="tabBarItem" title="Chats" image="message.fill" catalog="system" id="YWt-9m-h9r"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cIG-VC-cAD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -282,7 +282,7 @@
             </objects>
             <point key="canvasLocation" x="3629.770992366412" y="-26.056338028169016"/>
         </scene>
-        <!--Item-->
+        <!--Story-->
         <scene sceneID="ZvA-wn-K96">
             <objects>
                 <viewController id="lGr-Ki-Xus" sceneMemberID="viewController">
@@ -350,7 +350,7 @@
                         <viewLayoutGuide key="safeArea" id="Xci-es-y2C"/>
                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="tdD-iZ-y2X"/>
+                    <tabBarItem key="tabBarItem" title="Story" image="person.crop.circle.dashed" catalog="system" id="tdD-iZ-y2X"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g24-MA-jub" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -369,13 +369,14 @@
                     <connections>
                         <segue destination="VcE-Sf-8QQ" kind="relationship" relationship="viewControllers" id="GJC-KC-gCd"/>
                         <segue destination="lGr-Ki-Xus" kind="relationship" relationship="viewControllers" id="Bei-4o-MKt"/>
+                        <segue destination="Ml8-gd-te1" kind="relationship" relationship="viewControllers" id="JDt-6F-jDI"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="K0s-19-7SK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="984" y="-35"/>
         </scene>
-        <!--View Controller-->
+        <!--Settings-->
         <scene sceneID="jaa-hu-ZHy">
             <objects>
                 <viewController id="Ml8-gd-te1" sceneMemberID="viewController">
@@ -454,6 +455,7 @@
                         <viewLayoutGuide key="safeArea" id="OpA-zy-Aas"/>
                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Settings" image="gearshape.fill" catalog="system" id="mvg-Xg-SYG"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mu2-Wo-RNW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -632,8 +634,11 @@
     <resources>
         <image name="camera.fill" catalog="system" width="128" height="93"/>
         <image name="circle.hexagongrid.fill" catalog="system" width="128" height="115"/>
+        <image name="gearshape.fill" catalog="system" width="128" height="123"/>
+        <image name="message.fill" catalog="system" width="128" height="114"/>
         <image name="microphone.fill" catalog="system" width="110" height="128"/>
         <image name="pencil.tip.crop.circle.fill" catalog="system" width="128" height="123"/>
+        <image name="person.crop.circle.dashed" catalog="system" width="128" height="123"/>
         <image name="plus" catalog="system" width="128" height="113"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
